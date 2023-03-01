@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: white;
+  z-index: 2;
+}
+
+.divPositioning {
+  background-color: #f5efef;
+  position: relative;
+  left: 10%;
+  width: 80%;
+}
+
+div.catagories {
+  background-color: #f5efef;
+}
+div.catagories ul.weekdays {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem;
+}
+div.catagories ul.weekdays li {
+  background-color: #ffa749;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+div.catagories ul.weekdays li a {
+  padding: 0.1rem 0.1rem;
+  text-decoration: none;
+  color: black;
+  background-color: #ffa749;
+}
+div.catagories ul.category {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem;
+}
+div.catagories ul.category li {
+  background-color: #ade0e1;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+div.catagories ul.category li a {
+  padding: 0.1rem 0.1rem;
+  text-decoration: none;
+  color: black;
+  background-color: #ade0e1;
+}
+
+div.main {
+  background-color: #f5efef;
+}
+div.main div.mainPhoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+}
+div.main div.mainPhoto img {
+  max-width: 70%;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  border-radius: 1rem;
+}
+div.main div.mainPhoto div.shade {
+  width: auto;
+  background-color: rgb(0, 0, 0);
+  opacity: 40%;
+  padding: 0.5rem;
+  position: relative;
+  bottom: 40px;
+  border-radius: 0.5rem;
+}
+div.main div.mainPhoto div.shade p {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  margin: 0;
+  position: relative;
+}
+
+footer {
+  background-color: #d9d9d9;
+  position: relative;
+  bottom: 0px;
+  z-index: 1;
+}
+footer div.redirect {
+  display: flex;
+  justify-content: center;
+}
+footer div.redirect a {
+  padding: 1rem 3%;
+}/*# sourceMappingURL=style.css.map */
